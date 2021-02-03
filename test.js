@@ -15,6 +15,8 @@ const $ = new Env('TEST');
     await $.wait(500)
     $.log(`jxnc_token2: ${$.getdata('jxnc_token2')}`);
     await $.wait(500)
+    $.log(`jx_tokens: ${$.getdata('jx_tokens')}`);
+    await $.wait(500)
     // $.setdata('纯甄红西柚口味礼盒装', 'coinToBeans')
     await $.wait(500)
     $.log(`coinToBeans: ${$.getdata('coinToBeans')}`);

@@ -7,6 +7,8 @@ const $ = new Env('TEST');
     await $.wait(500)
     $.log(`JDUA: ${$.getdata('JDUA')}`);
     await $.wait(500)
+    $.log(`CookiesJD: ${$.getdata('CookiesJD')}`);
+    await $.wait(500)
     $.log(`CookiesJD: ${$.getdata('CookieJD')}`);
     await $.wait(500)
     $.log(`CookieJD2: ${$.getdata('CookieJD2')}`);

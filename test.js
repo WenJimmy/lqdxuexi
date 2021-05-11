@@ -4,23 +4,23 @@ const $ = new Env('TEST');
 !(async ()=>{
     //$.setdata('Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/7.0.21(0x17001525) NetType/WIFI Language/zh_CN', 'JDUAWECHAT')
     $.log(`JDUAWECHAT: ${$.getdata('JDUAWECHAT')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`JDUA: ${$.getdata('JDUA')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`CookiesJD: ${$.getdata('CookiesJD')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`CookieJD: ${$.getdata('CookieJD')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`CookieJD2: ${$.getdata('CookieJD2')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`jxnc_token1: ${$.getdata('jxnc_token1')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`jxnc_token2: ${$.getdata('jxnc_token2')}`);
-    await $.wait(500)
+    await $.wait(100)
     $.log(`jx_tokens: ${$.getdata('jx_tokens')}`);
-    await $.wait(500)
+    await $.wait(100)
     // $.setdata('纯甄红西柚口味礼盒装', 'coinToBeans')
-    await $.wait(500)
+    await $.wait(100)
     $.log(`coinToBeans: ${$.getdata('coinToBeans')}`);
     $.log(JSON.stringify($prefs))
     $.done();

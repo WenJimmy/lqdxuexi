@@ -7,21 +7,22 @@ const $ = new Env('TEST');
     await $.wait(500)
     $.log(`JDUA: ${$.getdata('JDUA')}`);
     await $.wait(500)
-    $.log(`CookiesJD: ${$.setdata('','CookiesJD')}`);
+    $.log(`CookiesJD: ${$.getdata('CookiesJD')}`);
     await $.wait(500)
-    $.log(`CookieJD: ${$.setdata('','CookieJD')}`);
+    $.log(`CookieJD: ${$.getdata('CookieJD')}`);
     await $.wait(500)
-    $.log(`CookieJD2: ${$.setdata('','CookieJD2')}`);
+    $.log(`CookieJD2: ${$.getdata('CookieJD2')}`);
     await $.wait(500)
-    $.log(`jxnc_token1: ${$.setdata('','jxnc_token1')}`);
+    $.log(`jxnc_token1: ${$.getdata('jxnc_token1')}`);
     await $.wait(500)
-    $.log(`jxnc_token2: ${$.setdata('','jxnc_token2')}`);
+    $.log(`jxnc_token2: ${$.getdata('jxnc_token2')}`);
     await $.wait(500)
-    $.log(`jx_tokens: ${$.setdata('','jx_tokens')}`);
+    $.log(`jx_tokens: ${$.getdata('jx_tokens')}`);
     await $.wait(500)
     // $.setdata('纯甄红西柚口味礼盒装', 'coinToBeans')
     await $.wait(500)
     $.log(`coinToBeans: ${$.getdata('coinToBeans')}`);
+    $.log($prefs)
     $.done();
 })().catch((e) => {
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')

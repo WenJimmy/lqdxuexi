@@ -22,7 +22,7 @@ const $ = new Env('TEST');
     // $.setdata('纯甄红西柚口味礼盒装', 'coinToBeans')
     await $.wait(500)
     $.log(`coinToBeans: ${$.getdata('coinToBeans')}`);
-    $.log($prefs)
+    $.log(JSON.stringify($prefs))
     $.done();
 })().catch((e) => {
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
